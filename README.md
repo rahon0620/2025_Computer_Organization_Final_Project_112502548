@@ -4,9 +4,9 @@
 
 ## 檔案路徑
 
-- `commands `: 各題使用的指令與常用指令
+- `commands`: 各題使用的指令與常用指令
 
-- `modified_code/ `: 資料夾內為所有有修改 code 的檔案
+- `modified_code/`: 資料夾內為所有有修改 code 的檔案
 
 - `log/Q2/`: 第二題的 log
   - `gem5_stats.txt`: gem5 m5out的stats
