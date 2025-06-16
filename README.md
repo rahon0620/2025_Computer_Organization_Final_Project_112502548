@@ -1,5 +1,5 @@
 # Computer_Organization_Final_Project_112502548
->　`quicksort` 的 array size 只有 100000，但作業規定 L3 cache size 設為 1MB，導致 `Q3` 和 `Q4` 的結果不管是 2-way、full-way、LRU、FBRP 的 miss rate 都相同（L3 cache size太大），所以 `Q3` 和 `Q4` 的輸出我有另外設置 L3 cache size 為 256 kB 的輸出結果。
+>`quicksort` 的 array size 只有 100000，但作業規定 L3 cache size 設為 1MB，導致 `Q3` 和 `Q4` 的結果不管是 2-way、full-way、LRU、FBRP 的 miss rate 都相同（L3 cache size太大），所以 `Q3` 和 `Q4` 的輸出我有另外設置 L3 cache size 為 256 kB 的輸出結果。
 
 
 ## 檔案路徑
