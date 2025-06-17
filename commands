@@ -4,7 +4,6 @@ cd gem5-525ce650e1a5bbe71c39d4b15598d6c003cc9f9e
 scons EXTRAS=../NVmain build/X86/gem5.opt
 
 -----
-
 Q2
 
 L3Cache
