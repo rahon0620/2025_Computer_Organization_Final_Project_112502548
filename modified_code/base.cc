@@ -1085,7 +1085,6 @@ BaseCache::access(PacketPtr pkt, CacheBlk *&blk, Cycles &lat,
     incMissCount(pkt);
 
     if (!blk && pkt->isLLSC() && pkt->isWrite()) {
-        // complete miss on store conditional... just give up now
         pkt->req->setExtraData(0);
         return true;
     }
