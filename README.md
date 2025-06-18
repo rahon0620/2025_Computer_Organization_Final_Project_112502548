@@ -43,3 +43,19 @@
   - `writeback_nvmain_log`: writeback 終端機輸出內容
   - `writethrough_gem5_stats.txt`: writethrough gem5 m5out的stats
   - `writethrough_nvmain_log`: writethrough 終端機輸出內容
+
+## 修改過後的 Code 原始路徑
+### Q2
+- `gem5/configs/common/Caches.py`
+- `gem5/configs/common/Options.py`
+- `gem5/src/cpu/BaseCPU.py`
+- `gem5/src/mem/XBar.py`
+- `gem5/configs/common/CacheConfig.py`
+### Q4
+- 新增 `gem5/src/mem/cache/replacement_policies/fb_rp.cc`
+- 新增 `gem5/src/mem/cache/replacement_policies/fb_rp.hh`
+- `gem5/src/mem/cache/replacement_policies/ReplacementPolicies.py`
+- `gem5/src/mem/cache/replacement_policies/SConscript`
+- `gem5/configs/common/Caches.py`
+### Q5
+- `base.cc`
